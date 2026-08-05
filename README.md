@@ -10,7 +10,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **Infinite Auto-Scroll**: Seamlessly advances to the next YouTube Short as soon as the current one ends.
 - **Speed Control**: Adjust playback speed from `0.5x` up to `3.0x` via a clean popup interface.
@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Option 1: Load Unpacked Folder (Developer Mode)
 
@@ -30,7 +30,7 @@
    ```
 2. Open your browser and navigate to `chrome://extensions` (or `brave://extensions`, `helium://extensions`).
 3. Enable **Developer mode** in the top right corner.
-4. Click **Load unpacked** (*Загрузить распакованное*) and select the **`src`** folder of this project.
+4. Click **Load unpacked** and select the **`src`** folder of this project.
 
 ### Option 2: Quick Install via ZIP
 
@@ -40,7 +40,7 @@
 
 ---
 
-## ⌨️ Shortcuts
+## Shortcuts
 
 | Shortcut | Action |
 | --- | --- |
