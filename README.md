@@ -30,7 +30,7 @@
 
 ### Option 2: Quick Install via ZIP
 
-1. Download [`youtube-shorts-autoscroll.zip`](youtube-shorts-autoscroll.zip) from this repository.
+1. Download [youtube-shorts-autoscroll.zip](https://github.com/user-attachments/files/30742433/youtube-shorts-autoscroll.zip) from this repository.
 2. Unzip it on your computer.
 3. Open `chrome://extensions` -> **Load unpacked** -> select the unzipped folder.
 
@@ -46,7 +46,7 @@
 ```
 yt-shorts-autoscroll/
 ├── assets/          # Logo and repository graphics
-├── src/             # Clean Extension Source Code (Target for Load Unpacked)
+├── src/             # Extension Source Code (Target for Load Unpacked)
 ├── README.md        # Documentation
 └── youtube-shorts-autoscroll.zip
 ```
