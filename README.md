@@ -8,8 +8,6 @@
   A lightweight Chrome / Chromium browser extension (Manifest V3) that automatically scrolls through YouTube Shorts as soon as they finish, with full playback speed controls.
 </p>
 
----
-
 ## Features
 
 - **Infinite Auto-Scroll**: Seamlessly advances to the next YouTube Short as soon as the current one ends.
@@ -17,8 +15,6 @@
 - **Speed Shortcuts**: Use standard `<` and `>` keys (`Shift + ,` / `Shift + .`) to adjust speed by `±0.25x` on the fly.
 - **Smart Input Detection**: Hotkeys automatically disable when typing in comments or search bars.
 - **Universal Compatibility**: Works on all Chromium-based browsers (Helium, Chrome, Brave, Edge, Opera, Vivaldi).
-
----
 
 ## Installation
 
@@ -38,8 +34,6 @@
 2. Unzip it on your computer.
 3. Open `chrome://extensions` -> **Load unpacked** -> select the unzipped folder.
 
----
-
 ## Shortcuts
 
 | Shortcut | Action |
@@ -47,9 +41,7 @@
 | `<` | Decrease playback speed by `-0.25x` |
 | `>` | Increase playback speed by `+0.25x` |
 
----
-
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 yt-shorts-autoscroll/
@@ -59,8 +51,6 @@ yt-shorts-autoscroll/
 └── youtube-shorts-autoscroll.zip
 ```
 
----
-
-## 📜 License
+## License
 
 MIT License. Free for everyone!
