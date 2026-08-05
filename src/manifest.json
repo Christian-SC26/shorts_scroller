@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Shorts Auto-Scroll & Speed",
+  "version": "5.3",
+  "description": "Auto-scroll YouTube Shorts and control playback speed seamlessly",
+  "permissions": ["storage", "activeTab"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "YouTube Shorts Auto-Scroll & Speed"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
