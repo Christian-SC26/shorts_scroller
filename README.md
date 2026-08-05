@@ -22,7 +22,7 @@
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/yt-shorts-autoscroll.git
+   git clone https://github.com/Christian-SC26/shorts_scroller.git
    ```
 2. Open your browser and navigate to `chrome://extensions` (or `brave://extensions`, `helium://extensions`).
 3. Enable **Developer mode** in the top right corner.
