@@ -21,25 +21,6 @@
 
     syncSettings();
 
-    // Show on-screen toast notification
-    function showToast(text, duration = 1200) {
-        let toast = document.getElementById('yt-shorts-toast');
-        if (!toast) {
-            toast = document.createElement('div');
-            toast.id = 'yt-shorts-toast';
-            toast.className = 'yt-shorts-toast-notification';
-            document.body.appendChild(toast);
-        }
-
-        toast.textContent = text;
-        toast.classList.add('show');
-
-        clearTimeout(toast.timer);
-        toast.timer = setTimeout(() => {
-            toast.classList.remove('show');
-        }, duration);
-    }
-
     // Get active Short container and video element
     function getActiveElements() {
         const activeRenderer = document.querySelector('ytd-reel-video-renderer[is-active]') ||
@@ -116,8 +97,6 @@
         if (video) {
             video.playbackRate = playbackSpeed;
         }
-
-        showToast(`⚡ Speed: ${playbackSpeed.toFixed(2).replace('.00', '.0')}x`);
     }
 
     // Keyboard shortcuts listener for < and >
